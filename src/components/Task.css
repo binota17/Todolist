@@ -1,0 +1,57 @@
+.task-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.inputName  {
+    height: 2em;
+    margin-bottom: 1.5em;
+    border: 1px solid #d7d7d7;
+}
+
+.inputField {
+    height: 1.8em;
+}
+
+.description {
+    height: 100px;
+    margin-bottom: 1.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    
+}
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.add {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 8px;
+    border-width: 0px;
+    background: linear-gradient(to right, #ffffcc, #ff69b4);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add:hover {
+    background: linear-gradient(to right, #ffcc00, #ff1493);
+}
+
+li {
+    list-style-type: none;
+}
+

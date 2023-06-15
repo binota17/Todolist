@@ -1,0 +1,217 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 14px;
+    flex-direction: row;
+    position: relative;
+}
+
+.newTask {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border: 1px solid #000;
+    width: 40%;
+    background-color: azure;
+}
+
+.toDoList {
+    display: flex;
+    flex-direction: column;
+    /* padding: 32px; */
+    border: 1px solid #000;
+    width: 60%;
+    padding-top: 32px;
+    background-color:aliceblue;
+}
+
+
+h1 {
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+}
+
+.inputName  {
+    height: 2em;
+    margin-bottom: 1.5em;
+    border: 1px solid #d7d7d7;
+}
+
+.error {
+    height: 1.8em;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 0.5em;
+}
+
+.error-message {
+    color: #ff1493;
+}
+
+.inputField {
+    height: 1.8em;
+}
+
+.description {
+    height: 100px;
+    margin-bottom: 1.5em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-height: 100px; /* Đặt giá trị tùy chọn */
+    resize: vertical; /* Cho phép điều chỉnh chiều cao dọc */
+}
+
+
+.attributes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.add {
+    height: 2.5em;
+    width: 100%;
+    border-radius: 8px;
+    border-width: 0px;
+    background: linear-gradient(to right, #ffffcc, #ff69b4);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add:hover {
+    background: linear-gradient(to right, #ffcc00, #ff1493);
+}
+
+li {
+    list-style-type: none;
+}
+
+.task {
+    background-color: #fff;
+}
+
+.listTask {
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+    margin-right: 32px;
+   
+}
+
+.taskDetails {
+    padding: 1em;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    background-color: azure;
+}
+
+.detailButton {
+    height: 2em;
+    flex: 2;
+    margin-right: 1em;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: aquamarine;
+}
+
+.detailButton:hover {
+    background-color: rgb(28, 221, 157);
+}
+
+.removeButton {
+    height: 2em;
+    flex: 2;
+    border-radius: 8px;
+    border-width: 0px;
+    background-color: rgba(255, 84, 84, 0.973);
+}
+
+.removeButton:hover {
+    background-color: red;
+
+}
+
+
+.action {
+    flex-direction: row;
+    align-self: center;
+    padding: 1em;
+    border: 1px solid;
+    margin-top: 1.5em;
+    display: flex;
+    background-color: rgb(196, 246, 255);
+}
+
+.checkbox {
+    flex: 1
+}
+
+.taskName {
+    flex: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-self: center;
+}
+
+.search {
+    height: 2em;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.bulkAction {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid;
+    margin-top: 3em;
+    display: flex;
+    background-color: #d7d7d7;
+}
+
+.bulk {
+    flex: 3;
+    margin-left: 2em;
+}
+
+.doneBulk {
+    flex: 1;
+    height: 3em;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: cadetblue;
+    margin-right: 2em;
+}
+
+.doneBulk:hover {
+    background-color: aqua;
+}
+
+.removeBulk {
+    flex: 1;
+    height: 3em;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(255, 84, 84, 0.973);
+    margin-right: 2em;
+}
+
+.removeBulk:hover {
+    background-color: red;
+}
